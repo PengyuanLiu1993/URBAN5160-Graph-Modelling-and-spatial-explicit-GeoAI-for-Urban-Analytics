@@ -1,23 +1,26 @@
-# URBAN5160 — Advanced Topics for Urban Analytics
+# URBAN5160 — Advanced Topics for Urban Analytics  
+## GNN: Graph Modelling and Spatial-Explicit GeoAI for Urban Analytics
 
 This repository hosts **Jupyter notebook–based teaching materials** for **URBAN5160: Advanced Topics for Urban Analytics**.
 
-The materials support two taught sessions in the course and are designed to combine **conceptual discussion** with **hands-on urban analytics workflows**.
+The materials support two sessions on **Graph Neural Networks (GNNs)**, focusing on **graph modelling** and **spatial-explicit GeoAI** methods for urban analytics. The notebooks combine conceptual explanations with hands-on workflows for building urban graphs, training GNN models, and interpreting results in spatial contexts.
 
 ---
 
 ## Sessions Covered
 
-This repository contains materials for **two sessions** delivered as part of URBAN5160:
+This repository contains materials for two URBAN5160 sessions:
 
-- **Session 1 — Advanced Topic A:** *[insert session title]*
-- **Session 2 — Advanced Topic B:** *[insert session title]*
+- **Session 1 — Graph Modelling for Urban Analytics**  
+  Constructing urban graphs (nodes/edges), encoding spatial relationships, and preparing graph-structured data for learning.
 
-Each session is organised around one or more Jupyter notebooks, typically including:
-- Short conceptual explanations (Markdown cells)
-- Executable Python code
-- Visualisation and interpretation of results
-- Small, teaching-oriented datasets where needed
+- **Session 2 — Spatial-Explicit GeoAI with Graph Neural Networks**  
+  Applying GNNs to spatial prediction tasks and discussing uncertainty, generalisation, and interpretability in urban settings.
+
+Each session includes:
+- Jupyter notebooks (`.ipynb`)
+- Lightweight datasets (where applicable)
+- Step-by-step exercises and discussion prompts
 
 ---
 
@@ -26,9 +29,9 @@ Each session is organised around one or more Jupyter notebooks, typically includ
 ```text
 .
 ├── README.md
-├── session_01/
+├── session_01_graph_modelling/
 │   ├── notebooks/
 │   └── data/
-└── session_02/
+└── session_02_spatial_geoai_gnn/
     ├── notebooks/
     └── data/
